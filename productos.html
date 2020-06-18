@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>BuyFast</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style/ProductosEstilo.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Cabecera -->
+        <div class="container-fluid p-0" id="cabecera">
+            <div class="row">
+                <div class="col-md-4">
+                    <img  id="logo" src="img/logo.png" alt="logo">
+                </div>
+                <div class="col-md-8">
+                    <h3 id="titulo">BUYFAST</h3>
+                </div>
+            </div>
+
+            <!-- Menu -->
+            <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+                <a class="navbar-brand" href="#">Menú</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="margin-left: 40px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Subir productos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" id="altaVehiculo">Subir vehiculo</a>
+                            <a class="dropdown-item" href="#" id="altaRopa">Subir ropa</a>
+                            <a class="dropdown-item" href="#" id="altaElectronica">Subir electronica</a>
+                            <a class="dropdown-item" href="#" id="altaOtro">Subir otro</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="margin-left: 40px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Modificar productos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" id="modificarVehiculos">Modificar vehiculo</a>
+                            <a class="dropdown-item" href="#" id="modificarRopa">Modificar ropa</a>
+                            <a class="dropdown-item" href="#" id="modificarElectronica">Modificar electronica</a>
+                            <a class="dropdown-item" href="#" id="modificarOtros">Modificar otro</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="margin-left: 40px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Eliminar productos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" id="eliminarVehiculos">Elimina vehiculo</a>
+                            <a class="dropdown-item" href="#" id="eliminarRopa">Elimina ropa</a>
+                            <a class="dropdown-item" href="#" id="eliminarElectronica">Elimina electronica</a>
+                            <a class="dropdown-item" href="#" id="eliminarOtros">Elimina otro</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="margin-left: 40px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Mis productos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" id="tablaVehiculos">Vehiculos</a>
+                            <a class="dropdown-item" href="#" id="tablaRopa">Ropas</a>
+                            <a class="dropdown-item" href="#" id="tablaElectronica">Electronicas</a>
+                            <a class="dropdown-item" href="#" id="tablaOtros">Otros</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown" style="margin-left: 40px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Comprar</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" id="comprarVehiculos">Vehiculos</a>
+                            <a class="dropdown-item" href="#" id="comprarRopa">Ropas</a>
+                            <a class="dropdown-item" href="#" id="comprarElectronica">Electronicas</a>
+                            <a class="dropdown-item" href="#" id="comprarOtros">Otros</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="formularios"></div>
+        </div>
+        
+        
+        <script type="text/javascript" src="js/principalProductos.js"></script>
+
+    </body>
+</html>

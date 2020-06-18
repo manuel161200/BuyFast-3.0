@@ -1,0 +1,26 @@
+#cabecera {
+    height: 100px;
+    background-color: #F78181;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+#titulo {
+    margin-top: 2.5%;
+    margin-left: 20%;
+
+}
+
+.formulario{
+    background-color: rgb(230, 230, 230);
+    border-radius: 30px;
+}
+
+
+.oculto {
+    display: none !important;
+}

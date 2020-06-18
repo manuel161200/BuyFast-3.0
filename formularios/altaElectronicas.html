@@ -1,0 +1,58 @@
+<div class="row mx-auto mt-5 shadow formulario" id="altaElectronicas" name="altaElectronicas" style="width: 70%;">
+    <div class="col-12">
+        <form class="container pt-5 w-50" name="formularioElectronicas" id="formularioElectronicas">
+            <div class="form-group row" id="nombreProducto">
+                <label for="nombre" class="col-4">Nombre del producto: </label>
+                <div class="col-8">
+                    <input type="text" class="form-control form" id="nombreProducto1" placeholder="Introduzca el nombre del producto:" name="nombreProducto">
+                </div>
+            </div>
+            <div class="form-group row" id="estado">
+                <label for="estado" class="col-4">Estado del producto: </label>
+                <div class="col-8">
+                    <select class="form-control form" id="estado" name="estadoProducto">
+                        <option value="Sin Abrir">Sin abrir</option>
+                        <option value="Nuevo">Nuevo</option>
+                        <option value="Como nuevo">Como nuevo</option>
+                        <option value="Bueno">Bueno</option>
+                        <option value="Aceptable">Aceptable</option>
+                        <option value="Roto">Roto</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row" id="descripcion">
+                <label for="descripcion" class="col-4">Descripcion del producto: </label>
+                <div class="col-8">
+                    <textarea class="form-control form" id="descripcion" placeholder="Introduzca la descripcion del producto:" name="descripcionProducto"></textarea>
+                </div>
+            </div>
+            <div class="form-group row" id="precio">
+                <label for="estado" class="col-4">Precio del producto: </label>
+                <div class="input-group col-8 mb-4">
+                    <input type="text" class="form-control form" id="precio"  name="precioProducto" placeholder="Introduzca el precio:">
+                    <div class="input-group-append">
+                        <span class="input-group-text">€</span>
+                    </div>
+                </div>
+            </div>
+            <!-- ELECTRONICA  -->
+            <div class="form-group row" id="modelo">
+                <label for="modelo" class="col-4">Modelo: </label>
+                <div class="input-group col-8 mb-4">
+                    <input type="text" class="form-control form" id="modelo"  name="modelo" placeholder="Introduzca el modelo:">
+                </div>
+            </div>
+            <div class="form-group row" id="tipo">
+                <label for="tipo" class="col-4">Tipo: </label>
+                <div class="input-group col-8 mb-4">
+                    <input type="text" class="form-control form" id="tipo"  name="tipo" placeholder="Introduzca el tipo:">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col">
+                    <input name="btnAceptar" id="btnAceptar" type="button" class="btn btn-info w-25 mx-auto mt-5" value="Aceptar">
+                </div> 
+            </div>
+            
+        </form>
+    </div>

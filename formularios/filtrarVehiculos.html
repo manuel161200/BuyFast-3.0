@@ -1,0 +1,52 @@
+<div class="row mx-auto mt-5 shadow formulario" id="filtrarVehiculos" name="filtrarVehiculos" style="width: 70%;">
+    <div class="col-12">
+        <form class="container pt-5 w-50" name="formularioFiltrarVehiculos" id="formularioFiltrarVehiculos">
+            <div class="form-group row" id="nombreProducto">
+                <label for="nombre" class="col-4">Nombre del producto: </label>
+                <div class="col-8">
+                    <input type="text" class="form-control form" id="nombreProducto" placeholder="Introduzca el nombre del producto:" name="nombreProducto">
+                </div>
+            </div>
+            <div class="form-group row" id="estado">
+                <label for="estado" class="col-4">Estado del producto: </label>
+                <div class="col-8">
+                    <select class="form-control form" id="estado" name="estadoProducto">
+                        <option value="seleccione">Seleccione</option>
+                        <option value="Sin Abrir">Sin abrir</option>
+                        <option value="Nuevo">Nuevo</option>
+                        <option value="Como nuevo">Como nuevo</option>
+                        <option value="Bueno">Bueno</option>
+                        <option value="Aceptable">Aceptable</option>
+                        <option value="Roto">Roto</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row" id="minPrecio">
+                <label for="precio" class="col-4">Precio minimo: </label>
+                <div class="input-group col-8 mb-4">
+                    <input type="text" class="form-control form" id="minPrecio"  name="minPrecioProducto" placeholder="Introduzca el precio:">
+                    <div class="input-group-append">
+                        <span class="input-group-text">€</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row" id="maxPrecio">
+                <label for="precio" class="col-4">Precio máximo: </label>
+                <div class="input-group col-8 mb-4">
+                    <input type="text" class="form-control form" id="maxPrecio"  name="maxPrecioProducto" placeholder="Introduzca el precio:">
+                    <div class="input-group-append">
+                        <span class="input-group-text">€</span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-6">
+                    <input name="btnFiltrar" id="btnFiltrar" type="button" class="btn btn-info w-25 mx-auto mt-5" value="Filtrar">
+                </div> 
+                <div class="col-6">
+                    <input name="btnListar" id="btnListar" type="button" class="btn btn-info w-25 mx-auto mt-5" value="Listar">
+                </div> 
+            </div>
+        </form>
+    </div>
+</div>
